@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u+HVyai1yLk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ca22i\\OneDrive\\Documentos\\Estudo-Serializacao-Desserializacao\\Estudo-Serializacao-Desserializacao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ca22i\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
