@@ -11,7 +11,7 @@ Repositório destinado aos estudos de Serialização e Desserialização com New
 git clone https://github.com/Ca22io/Estudo-Serializacao-Desserializacao
 ```
 
-2 - Inicie a aplicação:
+2 - Vá até o local do projeto e inicie a aplicação utilizando:
 ```
 dotnet run
 ```
