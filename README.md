@@ -10,7 +10,7 @@ O objetivo é demonstrar a capacidade de controlar o processo de conversão entr
 | :--- | :--- |
 | **Atributos de Controle** | Uso dos atributos `[JsonProperty]` para renomear campos e `[JsonIgnore]` para **impedir a serialização de dados internos** (`SenhaInterna`). |
 | **Configuração de Formato** | Implementação de `JsonSerializerSettings` estáticas para garantir **formatação padronizada** (JSON Indentado e formato de data `dd/MM/yyyy`). |
-| **Fluxo Completo** | Demonstração clara dos processos de **Serialização** (Objeto -> JSON) e **Desserialização** (JSON -> Objeto). |
+| **Otimização de JSON** | **Uso da configuração `NullValueHandling.Ignore` para OMITIR campos com valor nulo**, garantindo que o JSON seja limpo e eficiente. |
 | **Controle de Tipos** | Uso de `[JsonConstructor]` para garantir a correta desserialização de objetos complexos com construtores customizados. |
 
 ---
