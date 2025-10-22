@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u+HVyai1yLk=",
+  "dgSpecHash": "W2Tmw4sDhavO6unSAEYxyFij2SoaOZEzEz2xJEstwspIf7ihmED271OUfDale5LA9NxAXUpglv6f8dSQM+ZFdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ca22i\\OneDrive\\Documentos\\Estudo-Serializacao-Desserializacao\\Estudo-Serializacao-Desserializacao.csproj",
+  "projectFilePath": "C:\\Users\\casas\\OneDrive\\Documentos\\Estudo-Serializacao-Desserializacao\\Estudo-Serializacao-Desserializacao.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ca22i\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+    "C:\\Users\\casas\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],
   "logs": []
 }

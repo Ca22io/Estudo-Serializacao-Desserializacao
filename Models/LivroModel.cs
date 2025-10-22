@@ -15,22 +15,23 @@ namespace Estudo_Serializacao_Desserializacao.Models
         public string Autor { get; set; }
 
         [JsonProperty(nameof(DataPublicacao))]
-        public DateOnly DataPublicacao { get; set; }
+        public DateTime DataPublicacao { get; set; }
 
         [JsonIgnore]
         public string SenhaInterna { get; set; } = "1111";
 
         [JsonConstructor]
-        public LivroModel(int IdLivro, string Titulo, string autor)
+        public LivroModel(int IdLivro, string Titulo, string autor, DateTime datapublicacao)
         {
             this.IdLivro = IdLivro;
             this.Autor = autor;
             this.Titulo = Titulo;
+            this.DataPublicacao = datapublicacao;
         }
         
         private static JsonSerializerSettings settings { get; } = new JsonSerializerSettings
         {
-            DateFormatString = "dd/mm/yyyy",
+            DateFormatString = "dd/MM/yyy",
             Formatting = Formatting.Indented,
             NullValueHandling = NullValueHandling.Ignore
         };
